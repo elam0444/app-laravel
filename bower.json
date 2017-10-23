@@ -1,0 +1,33 @@
+{
+  "name": "test-app",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "localhost",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.4",
+    "jquery-ui": "1.11.4",
+    "bootstrap": "3.3.5",
+    "eonasdan-bootstrap-datetimepicker": "4.14.30",
+    "components-font-awesome": "4.7",
+    "bootstrap-maxlength": "1.6.0",
+    "bootstrap-multiselect": "0.9.13",
+    "bootstrap-touchspin": "3.0.1",
+    "magnific-popup": "1.1.0",
+    "datatables.net": "~1.10.10",
+    "datatables.net-dt": "~1.10.10",
+    "datatables.net-rowreorder": "~1.1.0",
+    "datatables.net-rowreorder-dt": "~1.1.0",
+    "jquery-file-upload": "9.11.2",
+    "simple-line-icons": "2.2.3",
+    "tinymce-dist": "4.3.0"
+  }
+}

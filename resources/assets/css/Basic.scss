@@ -1,0 +1,68 @@
+@import 'Colors';
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,600);
+
+//$font-family: 'Open Sans', sans-serif;
+$font-family: 'Raleway', sans-serif;
+$font-weight: 100;
+$font-size: 16px;
+
+html, body, div[class^="container"], .column {
+  height: 100%;
+}
+
+html, body {
+  background-color: $background-color;
+  padding-top: 10px;
+  color: $dark-gray;
+  font-family: $font-family;
+  font-weight: $font-weight;
+  height: 100vh;
+  margin: 0;
+  font-size: $font-size;
+}
+
+h1, h2, h3, h4, h5 {
+  color: $dark-gray;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 84px;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $blue;
+}
+
+a:visited,
+a:focus {
+  color: $blue;
+  text-decoration: none;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+.alert {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
